@@ -1,0 +1,23 @@
+---
+import { Sal } from "../index.js";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href={Astro.resolve("../style/main.scss")} />
+		<Sal />
+	</head>
+
+	<body>
+		<main id="main">
+			<slot />
+		</main>
+	</body>
+</html>
+
+<style lang="scss">
+
+</style>
